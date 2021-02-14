@@ -12,10 +12,10 @@ namespace AutofacWeb.Controllers
     {
         IRestaurant restaurant;
         IVechile vechile;
-        public HomeController()
+        public HomeController(IRestaurant restaurant, IVechile vechile)
         {
-            restaurant = new Restaurant();
-            vechile = new Vechile();
+            this.restaurant = restaurant;
+            this.vechile = vechile;
         }
         public ActionResult Index()
         {
