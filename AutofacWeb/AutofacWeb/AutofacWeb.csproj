@@ -124,6 +124,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Implementation\Restaurant.cs" />
+    <Compile Include="Implementation\Vechile.cs" />
+    <Compile Include="Interface\IRestaurant.cs" />
+    <Compile Include="Interface\IVechile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
